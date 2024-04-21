@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | PescadoFish</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../material/favicon.ico">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <section class="header-section">
+            <div class="header-section-letter">
+                <img src="../material/fish-slogan.png" alt="logo-fish-letras">
+            </div>
+
+            <nav class="header-section-nav">
+                <button class="header-section-nav-button"><a href="../index.html">
+                        <p>🛎 Tienda</p>
+                    </a></button>
+                <button class="header-section-nav-button"><a href="../pages/carrito.html">
+                        <p>🛒 Carrito</p>
+                    </a></button>
+            </nav>
+
+            <div class="header-section-fish">
+                <img src="../material/fish-logo.png" alt="fish">
+            </div>
+        </section>
+
+        <!-- Notificación -->
+        <div id="notificacion" class="notificacion"><p>Carrito eliminado</p></div>
+
+    </header>
+
+    <main class="carrito">
+        <section>
+            <div class="carrito-titulo">
+                <h1>Carrito de Compras</h1>
+            </div>
+            <div class="carrito-lista">
+
+                <div id="carrito-vacio" class="carrito-vacio">
+                    <h2>El carrito esta vacio...</h2>
+                </div>
+
+                <div id="carrito-comprado" class="carrito-comprado">
+                    <h2>Gracias por su compra :)</h2>
+                </div>
+                <div id="contenedor-productos">
+
+                    <!-- LLENAMOS CON EL JS -->
+                    
+                </div>
+
+
+
+            </div>
+            <div class="carrito-total">
+                <h2>Total:</h2>
+                
+                <div class="prueba">
+
+                </div>
+            </div>
+            <!-- Para funciones llamadas en js -->
+            <article class="carrito-botones">
+                <button id="boton-vaciar">
+                    <p>Vaciar Carrito</p>
+                </button>
+                <button id="procesar-compra">
+                        <p>Procesar Compra</p>
+                    </button>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>todos los derechos reservados | pescadofish.com</p>
+    </footer>
+
+
+    <script src="../js/carrito.js"></script>
+</body>
+
+</html>
